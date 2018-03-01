@@ -1,0 +1,89 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 50%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+h1 {
+	color: white;
+	height: 200px;
+	text-align: center;
+	background-color: #CD5C5C;
+	font-size: 64px;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+
+}
+
+#text {
+	font-size: 18px;
+}
+
+#secondText {
+	font-size: 22px;
+}
+
+#message {
+	color: #FAFAD2;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+#space {
+	display: inline-block;
+	width: 15%;
+}
+
+#panel {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+button {
+	outline: none;
+	font-family: 'Fredericka the Great', cursive;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	color:  #CD5C5C;
+	height: 100%;
+	font-weight: 800;
+	letter-spacing: 1px;
+	font-size: 16px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+button:hover {
+	color: white;
+	background: #CD5C5C;
+}
+
+
+.selected {
+	color: white;
+	background: #CD5C5C;
+}
